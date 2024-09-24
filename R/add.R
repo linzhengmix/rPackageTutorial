@@ -1,5 +1,3 @@
-
-
 #' Returns the sum of two numbers
 #'
 #' @param a Number one.
@@ -11,6 +9,6 @@
 #' @examples
 #' library(rPackageTutorial)
 #' add(1, 2)
-add<-function(a,b) {
-  a+b
+add <- function(a, b) {
+  a + b
 }
