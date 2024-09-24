@@ -7,7 +7,8 @@
 
 <!-- badges: end -->
 
-The goal of rPackageTutorial is to …
+The goal of rPackageTutorial is to show an example of how to create a r
+package in a professional way
 
 ## Installation
 

@@ -1,14 +1,19 @@
 Package: rPackageTutorial
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Create R Package In A Professional Way Tutorial
 Version: 0.1.0
-Author: Who wrote it
+Author: 
+  person(given = "lin",
+           family = "mix",
+           role = c("aut", "cre"),
+           email = "mixfuitszu@gmail.com")
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: Show an example of how to create a r package in a professional way.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    renv
+    renv,
+    testthat (>= 3.0.0)
 RoxygenNote: 7.3.2
+Config/testthat/edition: 3
