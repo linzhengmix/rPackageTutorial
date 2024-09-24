@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # rPackageTutorial
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/linzhengmix/rPackageTutorial/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/linzhengmix/rPackageTutorial/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/linzhengmix/rPackageTutorial/graph/badge.svg)](https://app.codecov.io/gh/linzhengmix/rPackageTutorial)
 <!-- badges: end -->
 
 The goal of rPackageTutorial is to show an example of how to create a r package in a professional way
