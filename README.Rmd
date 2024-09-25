@@ -40,4 +40,5 @@ library(rPackageTutorial)
 ## basic example code
 add(2, 3)
 hello()
+# fbm(hurst=0.2, n=1000)
 ```

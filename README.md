@@ -34,4 +34,5 @@ add(2, 3)
 #> [1] 5
 hello()
 #> [1] "Hello, world!"
+# fbm(hurst=0.2, n=1000)
 ```
