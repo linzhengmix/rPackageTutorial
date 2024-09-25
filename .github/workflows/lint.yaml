@@ -28,7 +28,9 @@ jobs:
           needs: lint
 
       - name: Lint
-        run: lintr::lint_package()
+        run: lintr::lint_package(linters =
+        object_name_linter(styles = c("snake_case", "symbols",'symbols','CamelCase', 'camelCase', 'snake_case', 'SNAKE_CASE',
++                                                             'dotted.case', 'lowercase', 'UPPERCASE'), regexes = character()))
         shell: Rscript {0}
         env:
           LINTR_ERROR_ON_LINT: true
