@@ -7,11 +7,15 @@ Author:
            family = "mix",
            role = c("aut", "cre"),
            email = "mixfuitszu@gmail.com")
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <mixfruitszu@gmail.com>
 Description: Show an example of how to create a r package in a professional way.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends:
+  R (>= 4.1.0)
+Imports:
+  ggplot2
 Suggests: 
     renv,
     testthat (>= 3.0.0)
