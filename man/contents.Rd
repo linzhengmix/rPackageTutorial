@@ -15,3 +15,9 @@ a list with 4 components:
 \description{
 \code{contents} provides describes of the contents of a data frame.
 }
+\examples{
+df_info <- contents(happiness)
+df_info
+plot(df_info)
+
+}

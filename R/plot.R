@@ -15,6 +15,8 @@
 #' @export
 #'
 #' @examples
+#' df_info <- contents(happiness)
+#' plot(df_info)
 plot.contents <- function(x, ...){
   if(!inherits(x, "contents")){
     stop("Object must be of class 'contents'")

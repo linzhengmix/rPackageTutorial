@@ -17,3 +17,7 @@ a \code{ggplot2} graph
 \description{
 Title
 }
+\examples{
+df_info <- contents(happiness)
+plot(df_info)
+}

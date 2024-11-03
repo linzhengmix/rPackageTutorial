@@ -16,3 +16,7 @@
 \description{
 Description of a data frame
 }
+\examples{
+df_info <- contents(happiness)
+print(df_info)
+}

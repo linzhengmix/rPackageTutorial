@@ -11,6 +11,8 @@
 #' @export
 #'
 #' @examples
+#' df_info <- contents(happiness)
+#' print(df_info)
 print.contents <- function(x, digits=4, ...){
   if(!inherits(x, "contents")){
     stop("Object must be of class 'contents'")
