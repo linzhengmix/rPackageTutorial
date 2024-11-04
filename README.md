@@ -29,10 +29,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(rPackageTutorial)
-## basic example code
-add(2, 3)
-#> [1] 5
-hello()
-#> [1] "Hello, world!"
-# fbm(hurst=0.2, n=1000)
+data("happiness")
+df_info <- contents(happiness)
+plot(df_info)
 ```
+
+<img src="man/figures/README-example-1.png" width="100%" />
