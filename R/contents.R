@@ -14,6 +14,7 @@
 #' @export
 #'
 #' @examples
+#' library(rPackageTutorial)
 #' df_info <- contents(happiness)
 #' df_info
 #' plot(df_info)

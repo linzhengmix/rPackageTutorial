@@ -16,6 +16,7 @@ a list with 4 components:
 \code{contents} provides describes of the contents of a data frame.
 }
 \examples{
+library(rPackageTutorial)
 df_info <- contents(happiness)
 df_info
 plot(df_info)

@@ -15,6 +15,7 @@
 #' @export
 #'
 #' @examples
+#' library(rPackageTutorial)
 #' df_info <- contents(happiness)
 #' plot(df_info)
 plot.contents <- function(x, ...){

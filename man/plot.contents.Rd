@@ -18,6 +18,7 @@ a \code{ggplot2} graph
 Title
 }
 \examples{
+library(rPackageTutorial)
 df_info <- contents(happiness)
 plot(df_info)
 }

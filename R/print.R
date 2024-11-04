@@ -11,6 +11,7 @@
 #' @export
 #'
 #' @examples
+#' library(rPackageTutorial)
 #' df_info <- contents(happiness)
 #' print(df_info)
 print.contents <- function(x, digits=4, ...){

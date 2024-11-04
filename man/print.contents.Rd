@@ -17,6 +17,7 @@
 Description of a data frame
 }
 \examples{
+library(rPackageTutorial)
 df_info <- contents(happiness)
 print(df_info)
 }
