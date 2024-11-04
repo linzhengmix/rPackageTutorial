@@ -39,5 +39,6 @@ This is a basic example which shows you how to solve a common problem:
 library(rPackageTutorial)
 data("happiness")
 df_info <- contents(happiness)
+df_info
 plot(df_info)
 ```

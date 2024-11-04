@@ -40,5 +40,5 @@ plot.contents <- function(x, ...){
     guides(fill=guide_legend(reverse=TRUE)) +
     scale_y_continuous(breaks=seq(0, 100 ,20)) +
     coord_flip() +
-    theme_minimal()
+    theme_bw()
 }
